@@ -9,6 +9,21 @@
 
     <script src="./js/swiper-bundle.min.js"></script>
     <script defer src="js/function.js"></script>
+    <style>
+      @media screen and (max-width: 768px) {
+        #wrap {
+          display: none;
+        }
+
+        body:after {
+          display: block;
+          font-size: 24px;
+          line-height: 100vh;
+          text-align: center;
+          content: "이 포트폴리오는 모바일을 지원하지 않습니다.";
+        }
+      }
+    </style>
   </head>
 
   <body>
